@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  background-color: #fbfbfb;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  align-items: center;
+  padding: 15px;
+  margin: 5px;
+}
+div + div {
+  margin-top: 20px;
+}
+.container {
+  padding-bottom: 20px;
+}
+div {
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  padding: 10px;
+}
+nav a {
+  font-weight: 700;
+  padding-right: 30px;
+  font-family: "Lato", sans-serif;
+}
+nav a:hover {
+  color: hwb(229 12% 38%);
+}
+
+.img-logo {
+  height: 61px;
+  width: 61px;
+  padding: 5px;
+  margin: 0;
+}
+h1 {
+  color: #000980;
+  font-size: 36px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  text-shadow: 5px 5px 10px rgb(61, 58, 58);
+  font-weight: 700;
+}
+img {
+  width: 180px;
+  height: 220px;
+  margin: 30px;
+}
+
+p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0.7rem 0.5rem;
+}
+
+.boton {
+  background-color: hwb(229 12% 38%);
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  height: 30px;
+  width: 150px;
+  margin-top: 15px;
+  border-radius: 25px;
+}
+
+h2 {
+  text-shadow: 5px 5px 10px rgb(61, 58, 58);
+  text-align: center;
+}
+
+.parrafo {
+  text-align: center;
+}
+.parrafo2 {
+  text-align: center;
+}
+.iconos {
+  display: flex;
+  height: 15vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+.iconos ul li {
+  display: inline-block;
+  margin: 0 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+  padding: 1em;
+  background: hwb(229 12% 38%);
+}
+
+h3 {
+  color: #fbfbfb;
+  background-color: hwb(229 12% 38%);
+  text-align: center;
+  justify-content: center;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boton-azul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
